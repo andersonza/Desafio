@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Alterar nome de um post" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-19T19:23:04" hostname="NTCNOTE97" time="0.996">
+  <properties/>
+  <testcase name="Given que tenho o nome de um post para alterar" classname="Scenario: Alterar nome de um post" time="0.0"/>
+  <testcase name="When solicito alterar um post" classname="Scenario: Alterar nome de um post" time="0.0"/>
+  <testcase name="Then deve retornar status code de sucesso 200" classname="Scenario: Alterar nome de um post" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Alterar nome de um post" time="0.999"/>
+  <system-out><![CDATA[
+  @POST+
+  Scenario: Adicionar post de usuário com sucesso informando id e o alterando automaticamente para o padrão ?[90m# src/test/java/features/JsonTest.feature:24?[0m
+    ?[32mGiven ?[0m?[32mque possuo um post para adicionar informando id?[0m                                                   ?[90m# stepsdefs.que_possuo_um_post_para_adicionar_informando_id()?[0m
+    ?[32mWhen ?[0m?[32msolicito adicionar o post na área de posts?[0m                                                         ?[90m# stepsdefs.solicito_adicionar_o_post_na_área_de_posts()?[0m
+    ?[32mThen ?[0m?[32mdeve retornar status code de post com sucesso 201?[0m                                                  ?[90m# stepsdefs.deve_retornar_status_code_de_post_com_sucesso()?[0m
+    ?[32mAnd ?[0m?[32mdeve retornar o id padrão do post 101?[0m                                                               ?[90m# stepsdefs.deve_retornar_o_id_padrão_do_post()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

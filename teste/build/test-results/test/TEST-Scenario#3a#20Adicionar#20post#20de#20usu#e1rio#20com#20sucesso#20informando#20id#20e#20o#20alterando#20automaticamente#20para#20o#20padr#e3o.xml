@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Adicionar post de usuário com sucesso informando id e o alterando automaticamente para o padrão" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-19T19:23:03" hostname="NTCNOTE97" time="1.125">
+  <properties/>
+  <testcase name="Given que possuo um post para adicionar informando id" classname="Scenario: Adicionar post de usuário com sucesso informando id e o alterando automaticamente para o padrão" time="0.0"/>
+  <testcase name="When solicito adicionar o post na área de posts" classname="Scenario: Adicionar post de usuário com sucesso informando id e o alterando automaticamente para o padrão" time="0.0"/>
+  <testcase name="Then deve retornar status code de post com sucesso 201" classname="Scenario: Adicionar post de usuário com sucesso informando id e o alterando automaticamente para o padrão" time="0.0"/>
+  <testcase name="And deve retornar o id padrão do post 101" classname="Scenario: Adicionar post de usuário com sucesso informando id e o alterando automaticamente para o padrão" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Adicionar post de usuário com sucesso informando id e o alterando automaticamente para o padrão" time="1.134"/>
+  <system-out><![CDATA[
+  @POST+
+  Scenario: Adicionar post de usuário com sucesso sem informar id ?[90m# src/test/java/features/JsonTest.feature:17?[0m
+    ?[32mGiven ?[0m?[32mque possuo um post para adicionar sem informar id?[0m       ?[90m# stepsdefs.que_possuo_um_post_para_adicionar_sem_informar_id()?[0m
+    ?[32mWhen ?[0m?[32msolicito adicionar o post na área de posts?[0m               ?[90m# stepsdefs.solicito_adicionar_o_post_na_área_de_posts()?[0m
+    ?[32mThen ?[0m?[32mdeve retornar status code de post com sucesso 201?[0m        ?[90m# stepsdefs.deve_retornar_status_code_de_post_com_sucesso()?[0m
+    ?[32mAnd ?[0m?[32mdeve retornar o id padrão do post 101?[0m                     ?[90m# stepsdefs.deve_retornar_o_id_padrão_do_post()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

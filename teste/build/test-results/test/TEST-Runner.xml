@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Runner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="NTCNOTE97" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: JsonPlaceHolder
+
+  @DELETE-
+  Scenario: Retornar erro quando solicito deletar lista de posts ?[90m# src/test/java/features/JsonTest.feature:50?[0m
+    ?[32mGiven ?[0m?[32mque especifiquei minha requisições em Json?[0m             ?[90m# stepsdefs.que_especifiquei_minha_requisições_em_Json()?[0m
+    ?[32mWhen ?[0m?[32msolicito deletar uma lista de posts?[0m                     ?[90m# stepsdefs.solicito_deletar_uma_lista_de_posts()?[0m
+    ?[32mThen ?[0m?[32mdeve retornar status code de erro 404?[0m                   ?[90m# stepsdefs.deve_retornar_status_code_de_erro()?[0m
+
+8 Scenarios (?[32m8 passed?[0m)
+28 Steps (?[32m28 passed?[0m)
+0m12,440s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

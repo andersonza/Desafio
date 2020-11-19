@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Retornar erro quando tento acessar usuário inexistente" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-19T19:23:00" hostname="NTCNOTE97" time="1.085">
+  <properties/>
+  <testcase name="Given que especifiquei minha requisições em Json" classname="Scenario: Retornar erro quando tento acessar usuário inexistente" time="0.003"/>
+  <testcase name="When solicito acesso a área de um usuário inexistente" classname="Scenario: Retornar erro quando tento acessar usuário inexistente" time="0.0"/>
+  <testcase name="Then deve retornar status code de erro 404" classname="Scenario: Retornar erro quando tento acessar usuário inexistente" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Retornar erro quando tento acessar usuário inexistente" time="1.223"/>
+  <system-out><![CDATA[
+  @GET+
+  Scenario: Acessar lista de usuários com sucesso    ?[90m# src/test/java/features/JsonTest.feature:4?[0m
+    ?[32mGiven ?[0m?[32mque especifiquei minha requisições em Json?[0m ?[90m# stepsdefs.que_especifiquei_minha_requisições_em_Json()?[0m
+    ?[32mWhen ?[0m?[32msolicito acesso a área de usuários?[0m          ?[90m# stepsdefs.solicito_acesso_a_área_de_usuários()?[0m
+    ?[32mThen ?[0m?[32mdeve retornar status code de sucesso 200?[0m    ?[90m# stepsdefs.deve_retornar_status_code_de_sucesso()?[0m
+    ?[32mAnd ?[0m?[32mdeve retornar uma lista com 10 usuários?[0m      ?[90m# stepsdefs.deve_retornar_uma_lista_com_usuários()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

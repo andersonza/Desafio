@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Não alterar id de usuário" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-19T19:23:05" hostname="NTCNOTE97" time="0.98">
+  <properties/>
+  <testcase name="Given que tenho name, user e id de um usuário para alterar" classname="Scenario: Não alterar id de usuário" time="0.0"/>
+  <testcase name="When solicito realizar as alterações no usuário especificado" classname="Scenario: Não alterar id de usuário" time="0.0"/>
+  <testcase name="Then deve retornar status code de sucesso 200" classname="Scenario: Não alterar id de usuário" time="0.0"/>
+  <testcase name="And deve validar que não alterou id" classname="Scenario: Não alterar id de usuário" time="0.001"/>
+  <testcase name="classMethod" classname="Scenario: Não alterar id de usuário" time="0.987"/>
+  <system-out><![CDATA[
+  @PUT+
+  Scenario: Alterar nome de um post                ?[90m# src/test/java/features/JsonTest.feature:31?[0m
+    ?[32mGiven ?[0m?[32mque tenho o nome de um post para alterar?[0m ?[90m# stepsdefs.que_tenho_o_nome_de_um_post_para_alterar()?[0m
+    ?[32mWhen ?[0m?[32msolicito alterar um post?[0m                  ?[90m# stepsdefs.solicito_alterar_um_post()?[0m
+    ?[32mThen ?[0m?[32mdeve retornar status code de sucesso 200?[0m  ?[90m# stepsdefs.deve_retornar_status_code_de_sucesso()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

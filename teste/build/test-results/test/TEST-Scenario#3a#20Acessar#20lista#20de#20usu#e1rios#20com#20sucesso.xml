@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Acessar lista de usuários com sucesso" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-19T19:22:56" hostname="NTCNOTE97" time="4.324">
+  <properties/>
+  <testcase name="Given que especifiquei minha requisições em Json" classname="Scenario: Acessar lista de usuários com sucesso" time="0.013"/>
+  <testcase name="When solicito acesso a área de usuários" classname="Scenario: Acessar lista de usuários com sucesso" time="0.0"/>
+  <testcase name="Then deve retornar status code de sucesso 200" classname="Scenario: Acessar lista de usuários com sucesso" time="0.0"/>
+  <testcase name="And deve retornar uma lista com 10 usuários" classname="Scenario: Acessar lista de usuários com sucesso" time="0.001"/>
+  <testcase name="classMethod" classname="Scenario: Acessar lista de usuários com sucesso" time="5.366"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

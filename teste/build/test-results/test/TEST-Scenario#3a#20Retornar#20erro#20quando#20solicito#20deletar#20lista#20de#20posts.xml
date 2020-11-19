@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Retornar erro quando solicito deletar lista de posts" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-19T19:23:07" hostname="NTCNOTE97" time="0.919">
+  <properties/>
+  <testcase name="Given que especifiquei minha requisições em Json" classname="Scenario: Retornar erro quando solicito deletar lista de posts" time="0.0"/>
+  <testcase name="When solicito deletar uma lista de posts" classname="Scenario: Retornar erro quando solicito deletar lista de posts" time="0.0"/>
+  <testcase name="Then deve retornar status code de erro 404" classname="Scenario: Retornar erro quando solicito deletar lista de posts" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Retornar erro quando solicito deletar lista de posts" time="0.921"/>
+  <system-out><![CDATA[
+  @DELETE+
+  Scenario: Deletar post                             ?[90m# src/test/java/features/JsonTest.feature:44?[0m
+    ?[32mGiven ?[0m?[32mque especifiquei minha requisições em Json?[0m ?[90m# stepsdefs.que_especifiquei_minha_requisições_em_Json()?[0m
+    ?[32mWhen ?[0m?[32msolicito deletar um post?[0m                    ?[90m# stepsdefs.solicito_deletar_um_post()?[0m
+    ?[32mThen ?[0m?[32mdeve retornar status code de sucesso 200?[0m    ?[90m# stepsdefs.deve_retornar_status_code_de_sucesso()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

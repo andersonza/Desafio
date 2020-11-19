@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Deletar post" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-19T19:23:06" hostname="NTCNOTE97" time="0.982">
+  <properties/>
+  <testcase name="Given que especifiquei minha requisições em Json" classname="Scenario: Deletar post" time="0.0"/>
+  <testcase name="When solicito deletar um post" classname="Scenario: Deletar post" time="0.0"/>
+  <testcase name="Then deve retornar status code de sucesso 200" classname="Scenario: Deletar post" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Deletar post" time="0.985"/>
+  <system-out><![CDATA[
+  @PUT-
+  Scenario: Não alterar id de usuário                            ?[90m# src/test/java/features/JsonTest.feature:37?[0m
+    ?[32mGiven ?[0m?[32mque tenho name, user e id de um usuário para alterar?[0m   ?[90m# stepsdefs.que_tenho_name_user_e_id_de_um_usuário_para_alterar()?[0m
+    ?[32mWhen ?[0m?[32msolicito realizar as alterações no usuário especificado?[0m ?[90m# stepsdefs.solicito_realizar_as_alterações_no_usuário_especificado()?[0m
+    ?[32mThen ?[0m?[32mdeve retornar status code de sucesso 200?[0m                ?[90m# stepsdefs.deve_retornar_status_code_de_sucesso()?[0m
+    ?[32mAnd ?[0m?[32mdeve validar que não alterou id?[0m                          ?[90m# stepsdefs.deve_validar_que_não_alterou_id()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

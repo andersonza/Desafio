@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="11.299529">
+<testcase classname="JsonPlaceHolder" name="Acessar lista de usuários com sucesso" time="4.818989">
+<system-out><![CDATA[Given que especifiquei minha requisições em Json............................passed
+When solicito acesso a área de usuários.....................................passed
+Then deve retornar status code de sucesso 200...............................passed
+And deve retornar uma lista com 10 usuários.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="JsonPlaceHolder" name="Retornar erro quando tento acessar usuário inexistente" time="0.946794">
+<system-out><![CDATA[Given que especifiquei minha requisições em Json............................passed
+When solicito acesso a área de um usuário inexistente.......................passed
+Then deve retornar status code de erro 404..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="JsonPlaceHolder" name="Adicionar post de usuário com sucesso sem informar id" time="1.037087">
+<system-out><![CDATA[Given que possuo um post para adicionar sem informar id.....................passed
+When solicito adicionar o post na área de posts.............................passed
+Then deve retornar status code de post com sucesso 201......................passed
+And deve retornar o id padrão do post 101...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="JsonPlaceHolder" name="Adicionar post de usuário com sucesso informando id e o alterando automaticamente para o padrão" time="0.907">
+<system-out><![CDATA[Given que possuo um post para adicionar informando id.......................passed
+When solicito adicionar o post na área de posts.............................passed
+Then deve retornar status code de post com sucesso 201......................passed
+And deve retornar o id padrão do post 101...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="JsonPlaceHolder" name="Alterar nome de um post" time="0.943094">
+<system-out><![CDATA[Given que tenho o nome de um post para alterar..............................passed
+When solicito alterar um post...............................................passed
+Then deve retornar status code de sucesso 200...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="JsonPlaceHolder" name="Não alterar id de usuário" time="0.957">
+<system-out><![CDATA[Given que tenho name, user e id de um usuário para alterar..................passed
+When solicito realizar as alterações no usuário especificado................passed
+Then deve retornar status code de sucesso 200...............................passed
+And deve validar que não alterou id.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="JsonPlaceHolder" name="Deletar post" time="0.861809">
+<system-out><![CDATA[Given que especifiquei minha requisições em Json............................passed
+When solicito deletar um post...............................................passed
+Then deve retornar status code de sucesso 200...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="JsonPlaceHolder" name="Retornar erro quando solicito deletar lista de posts" time="0.827756">
+<system-out><![CDATA[Given que especifiquei minha requisições em Json............................passed
+When solicito deletar uma lista de posts....................................passed
+Then deve retornar status code de erro 404..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
